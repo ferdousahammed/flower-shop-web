@@ -31,7 +31,7 @@ body{
 
 .section-header{
     text-align: center;
-    max-width: 500px;
+    max-width: 540px;
     /* padding: 10px 0 30px; */
 
 }
@@ -45,7 +45,7 @@ body{
     color: #272727;
     font-size: 40px;
     font-weight: 800;
-    /* padding-top: 20px; */
+    margin-bottom: 20px;
 }
 
 
@@ -57,6 +57,10 @@ body{
     gap: 100px;
 }
 /* header section  */
+
+header .container{
+    padding-top: 50px;
+}
 header{
     background-color: rgba(229, 84, 115, 0.10);
 }
@@ -66,8 +70,6 @@ header{
     align-items: center;
 
 }
-
-
 
 .banner h5{
     color: #272727;
@@ -115,6 +117,7 @@ section{
     width: 300px;
     display: flex;
     align-items: end;
+    margin-top: 30px;
 }
 
 
@@ -153,13 +156,14 @@ section{
 .support-section{
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
+    padding: 50px;
 }
 
 .service-main{
     display: flex;
     gap:100px;
     justify-content: space-between;
-    padding: 0 160px 50px;
+    padding: 0 160px 0px;
     align-items: center;
     text-align: center;
 }
@@ -175,11 +179,20 @@ section{
     font-weight: 600;
 }
 
+
 /* hotdeal section  */
 
 .hot-deal{
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal .section-header h3 span{
+    color: #E55473;
+}
+
+.hot-deal .container{
+    padding: 50px 0;
 }
 .hot-deal-text-img{
     display: flex;
@@ -187,7 +200,7 @@ section{
     gap: 50px;
     align-items: center;
     margin: 0 30px;
-    padding: 0 0 50px;
+    /* padding: 0 0 50px; */
 }
 
 .hot-deal-text .section-header .text-primary {
@@ -211,7 +224,12 @@ section{
     background-image: url('../images/Rectangle\ 9.png');
     background-repeat: no-repeat;
     border-radius: 8px;
+    padding: 50px 0;
 }
+
+/* .hot-deal .container{
+    padding: 50px 0;
+} */
 
 .newsletter-form{
     margin: 0 auto;
@@ -244,7 +262,11 @@ section{
 
 footer{
     background: #111010;
-    padding-bottom: 50px;
+    margin-top: 100px;
+}
+
+.footer-main{
+    padding: 50px 0;
 }
 
 footer .section-header .text-primary{
@@ -272,8 +294,4 @@ footer .section-header .text-primary{
     line-height: normal;
 }
 
-
-.footer-main p{
-
-}
 
