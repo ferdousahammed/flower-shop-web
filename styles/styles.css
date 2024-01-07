@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* shared style  */
+
+.text-primary{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px
+}
+
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    padding: 20px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.section-header{
+    text-align: center;
+    max-width: 500px;
+    /* padding: 10px 0 30px; */
+
+}
+
+.middle-content{
+    margin: 0 auto;
+
+}
+
+.section-header h3{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    /* padding-top: 20px; */
+}
+
+
+.container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    /* padding-top: 50px; */
+    gap: 100px;
+}
+/* header section  */
+header{
+    background-color: rgba(229, 84, 115, 0.10);
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.banner h5{
+    color: #272727;
+    font-size: 65px;
+    font-weight: 800;
+    }
+
+.banner-text *{
+    margin-bottom: 30px;
+}
+
+.banner-text {
+    max-width: 50%;
+}
+
+.banner-img img{
+    width: 100%;
+    vertical-align: bottom;
+    
+}
+
+
+/* main section  */
+
+section{
+    padding-top: 100px;
+}
+
+.featured-img,.instagram-img{
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.flower{
+    text-align: center;
+}
+
+.featured-img .flower .flower-img{
+    text-align: center;
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 15px 0;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: end;
+}
+
+
+.flower .pink{
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.flower .blue{
+    background: rgba(5, 151, 160, 0.15);
+    vertical-align: middle;
+}
+.flower .green{
+    background: rgba(71, 125, 17, 0.15);
+    
+}
+
+.flower-img img{
+    width: 100%;
+}
+
+.flower-tree{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px; /* 145.833% */
+    text-decoration-line: underline;
+    padding-top: 32px;
+}
+
+
+
+/* support section  */
+
+
+.support-section{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.service-main{
+    display: flex;
+    gap:100px;
+    justify-content: space-between;
+    padding: 0 160px 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.service-icon {
+    padding-bottom: 24px;
+}
+
+.service-text{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* hotdeal section  */
+
+.hot-deal{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.hot-deal-text-img{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    margin: 0 30px;
+    padding: 0 0 50px;
+}
+
+.hot-deal-text .section-header .text-primary {
+    margin-bottom: 30px;
+}
+
+
+/* instagram section  */
+
+.instagram-img .flower .flower-img{
+    text-align: center;
+    background-color: #FFF;
+    padding: 30px 15px 0;
+    display: flex;
+    align-items: end;
+}
+
+/* great deal section  */
+
+.newsletter{
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.newsletter-form{
+    margin: 0 auto;
+    align-items: center;
+}
+
+.newsletter input[type='email']{
+    height: 64px;
+    width: 500px;
+    margin-right: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 22px;
+}
+
+.newsletter form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.newsletter p{
+    margin-bottom: 48px;
+}
+
+
+/* footer section  */
+
+footer{
+    background: #111010;
+    padding-bottom: 50px;
+}
+
+footer .section-header .text-primary{
+    color: rgba(255, 255, 255, 0.90);
+    margin-bottom: 30px;
+}
+
+.footer-main h3{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-main h3 span{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: normal;
+}
+.copyright-text{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.footer-main p{
+
+}
+
